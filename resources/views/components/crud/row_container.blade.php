@@ -8,7 +8,7 @@
         @if(!is_array($cis))
             <div class="{{$cis}}">
                 @foreach($row->ctrlitems[$key+1] as $index => $ctrlitem)
-                    <x-c_r_u_d_ctrlitem_switcher :row="$row" :ctrlitem="$ctrlitem" options="options"></x-c_r_u_d_ctrlitem_switcher>
+                    <x-CRUDCtrlitem_switcher :row="$row" :ctrlitem="$ctrlitem" options="options"></x-CRUDCtrlitem_switcher>
                 @endforeach
             </div>
         @endif
