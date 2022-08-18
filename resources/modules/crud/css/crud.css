@@ -1,0 +1,47 @@
+
+.crud_form_indexSearch{
+
+}
+
+.crud_form_indexList thead tr th,
+.crud_form_indexList tbody tr td{
+    margin: 0;
+    padding: 0;
+}
+
+
+.current-row{
+    background-color: greenyellow;
+}
+.current-col{
+    background-color: hotpink;
+}
+
+.crud_form_indexList tbody tr.tr_mouseOut{
+    background-color: white;
+}
+
+.crud-table{
+    width: 100%;
+}
+.crud-table th{
+    background-color: lightgrey;
+}
+
+.crud-table th, .crud-table td{
+    padding: 3px;
+}
+
+.tr_after_crud {
+    background-color: yellow;
+}
+
+.crud-table-action-btn{
+    margin: 4px;
+    padding: 4px;
+}
+
+.hidden
+{
+    display: none;
+}
