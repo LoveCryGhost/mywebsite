@@ -1,9 +1,9 @@
 <li class="nav-item">
     <a href="{{route('admin.login')}}" class="navbar-nav-link navbar-nav-link-toggler pr-0">
         @if(Auth::guard("admin")->check())
-            <span class="bg-success p-1 border-2 "> A </span>
+            <span class="bg-success p-1 border-2 "> A!t </span>
         @else
-            <span class="bg-danger p-1 border-2 "> A </span>
+            <span class="bg-danger p-1 border-2 "> A!t </span>
         @endif
     </a>
 </li>
@@ -11,9 +11,9 @@
 <li class="nav-item">
     <a href="{{route('user.login')}}" class="navbar-nav-link navbar-nav-link-toggler  pr-0">
         @if(Auth::guard("web")->check())
-            <span class="bg-success p-1 border-2 "> U </span>
+            <span class="bg-success p-1 border-2 "> U!t </span>
         @else
-            <span class="bg-danger p-1 border-2 "> U </span>
+            <span class="bg-danger p-1 border-2 "> U!t </span>
         @endif
 
     </a>
